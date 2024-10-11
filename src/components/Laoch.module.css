@@ -1,0 +1,47 @@
+body {
+  background: url(../img/_4ed63bb2-c085-4714-897d-19f53797665e_LE_auto_x2.jpg)
+    center center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(250, 235, 215, 0.603);
+}
+main {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.imgMacaco{
+  width: 28%;
+}
+.titleLaoch{
+  margin-top: -100px;
+  font-size: 60px;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-shadow: -5px 5px 3px white;
+}
+@media(max-width:750px){
+  .imgMacaco{
+    width: 90%;
+  }
+  .titleLaoch{
+    margin-top: -60px;
+    font-size: 47px;
+  }
+  p{
+    margin-top: 20px;
+    font-size: 25px;
+    text-shadow: -5px 5px 3px white;
+  }
+}
